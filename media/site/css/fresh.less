@@ -10,7 +10,7 @@ menu, footer, header, nav, section, summary, time, mark, audio, video {
     padding: 0;
     border: 0;
 }
-ul {
+ul, li {
     list-style: none;
 }
 
@@ -40,6 +40,9 @@ body {
     color: #444;
     background-color: #E5E5E5;
     background-image: url(../img/noise.png);
+
+    .crop { width: 150px; height: 100px; overflow: hidden; }
+
 
     .section {
         display: block;
@@ -79,7 +82,7 @@ body {
     }
     ul.options.section {
         padding: 10px 0;
-        li {
+        > li {
             float: left;
             width: 264px;
             cursor: pointer;
@@ -89,7 +92,7 @@ body {
 
             p, img {
                 border-style: solid;
-                border-width: 1px;
+                border-width: 2px;
                 border-color: rgba(0, 0, 0, 0.3);
             }
             &:hover{
@@ -101,6 +104,8 @@ body {
 
             img {
                 margin-bottom: -6px;
+                width: 260px;
+                height: 150px;
             }
             p {
                 text-decoration: none;
@@ -113,4 +118,48 @@ body {
             }
         }
     }
+
+    // Portfolio
+    @hozmargin: 50px;
+    @vertmargin: 50px;
+    .section.portfolio-header {
+        /*h1 {
+            margin-left: @hozmargin;
+            margin-bottom: @vertmargin / 2;
+        }*/
+    }
+    .section.portfolio {
+        background: #fcfcfc;
+        border: 1px rgba(0, 0, 0, 0.3) solid;
+        ul.clusters {
+            padding: @vertmargin @hozmargin;
+            > li {
+                overflow: auto;
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                }
+                > a {
+                    display: block;
+                    width: 100%;
+                    overflow: auto;
+
+                    .crop-wrap {
+                        float: left;
+                        padding: 3px;
+                        border: 2px solid rgba(0, 0, 0, 0.5);
+                        div {
+                            .crop;
+                        }
+                    }
+
+                    .description{
+                        float: left;
+                        padding: 0 20px;
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+
 }

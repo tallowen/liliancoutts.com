@@ -1,5 +1,9 @@
 ---
 layout: collections
-top-picture-link: http://placekitten.com/262/150
+top-picture-link: http://placekitten.com/262/151
 short-description: Consec site1 adipiscing elit lorem ipsum dolor sit amet.
+long-description:
+    Hello, I'm a *bold*
+
+    I'm a shiney paragraph
 ---

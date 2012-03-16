@@ -1,4 +1,26 @@
 ---
 layout: default
 ---
-Nothing to see here
+<div class="section portfolio-header">
+  <h1>
+    Portfolio
+  </h1>
+</div>
+<div class="section portfolio">
+  <ul class="clusters">
+    {% for post in site.posts %}
+    <li>
+      <a href="#foo">
+        <div class="crop-wrap">
+          <div>
+            <img src="{{ post.top-picture-link }}" alt="portfolio">
+          </div>
+        </div>
+        <div class="description">
+          {{ post.long-description | markdownify }}
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
