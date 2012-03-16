@@ -1,0 +1,4 @@
+*.sw[po]
+tmp/*
+.DS_Store
+_site/

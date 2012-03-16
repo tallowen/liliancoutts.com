@@ -1,0 +1,119 @@
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em,
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup,
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ul {
+    list-style: none;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+    display: block;
+}
+
+a img {border: 0;}
+
+a:link { color: #000000; text-decoration: none}
+a:visited { color: #000000; text-decoration: none}
+a:hover { color: #000000; text-decoration: none}
+a:active { color: #000000; text-decoration: none}
+a {outline: 0;}
+
+/* Site Style */
+
+body, html {height: 100%;}
+
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+body {
+    background-color: #E5E5E5;
+    background-image: url(/media/site/img/noise.png);
+}
+
+#page {
+    font-family: 'Poiret One';
+    margin: 0 auto 0 auto;
+    height: 100%;
+    color: #444;
+
+    .section {
+        display: block;
+        margin: 0 auto;
+        overflow: auto;
+        width: 1200px;
+    }
+
+    #top-links ul {
+        float: right;
+        margin: 20px 0px;
+        li{
+            float: left;
+            padding-left: 14px;
+            color: #888;
+            font-size: 16px;
+            &:hover{
+                color: black;
+                text-shadow: #888 0 0 2px;
+            }
+        }
+    }
+
+    .header {
+        margin: 125px auto 125px;
+        text-align: center;
+        h1 {
+            font-size: 122px;
+            letter-spacing: -6px;
+            line-height: 150px;
+            text-transform: uppercase;
+
+            span {
+                color: black;
+            }
+        }
+    }
+    ul.options.section {
+        padding: 10px 0;
+        li {
+            float: left;
+            width: 264px;
+            cursor: pointer;
+            &:nth-child(-n+3){
+                margin: 0 48px 0 0;
+            }
+
+            p, img {
+                border-style: solid;
+                border-width: 1px;
+                border-color: rgba(0, 0, 0, 0.3);
+            }
+            &:hover{
+                p, img{
+                    border-color: rgba(0, 0, 0, 0.5);
+                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                }
+            }
+
+            img {
+                margin-bottom: -6px;
+            }
+            p {
+                text-decoration: none;
+                margin-top: 10px;
+                background: #fcfcfc;
+                padding: 10px;
+                word-wrap: normal;
+                height: 50px;
+                text-align: center;
+            }
+        }
+    }
+}
