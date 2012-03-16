@@ -1,0 +1,5 @@
+---
+layout: collections
+top-picture-link: http://placekitten.com/262/150
+short-description: Consec site2 adipiscing elit lorem ipsum dolor sit amet.
+---

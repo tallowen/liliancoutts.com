@@ -1,7 +1,18 @@
 ---
 layout: default
-section: Home
 ---
 
-Hey y'all, my name is lil.
+<div class="section header">
+<h1><span>Lilian</span>Coutts</h1>
+</div>
+<ul class="section options">
+  {% for post in site.posts limit:4 %}
+    <li>
+      <a href="#foo">
+        <img src="{{ post.top-picture-link }}">
+        <p>{{ post.short-description }}</p>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
 
