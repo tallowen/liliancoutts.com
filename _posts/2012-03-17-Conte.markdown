@@ -1,0 +1,19 @@
+---
+layout: collections
+top-picture-link: IMG_0999.jpg
+home-page-description: Conte
+profile-page-description:
+    Hello, I'm a *bold*
+
+    I'm a the best paragraph
+images:
+    -
+        img: IMG_0999.jpg
+        caption: Wut.
+    -
+        img: IMG_1004.jpg
+        caption: Up.
+    -
+        img: IMG_1016.jpg
+        caption: Nigga.
+---

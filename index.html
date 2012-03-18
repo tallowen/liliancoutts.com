@@ -6,13 +6,17 @@ layout: default
   <h1><span>Lilian</span>Coutts</h1>
 </div>
 <ul class="section options">
-  {% for post in site.posts limit:4 %}
+  {% for post in site.posts %}
+    {% if post.home-page-description %}
     <li>
-      <a href="#foo">
-        <img src="{{ post.top-picture-link }}">
-        <p>{{ post.short-description }}</p>
+      <a href="{{ post.url }}">
+        <div class="large-crop">
+          <img src="/media/art/{{post.title}}/{{ post.top-picture-link }}">
+        </div>
+        <p>{{ post.home-page-description }}</p>
       </a>
     </li>
+    {% endif %}
   {% endfor %}
 </ul>
 

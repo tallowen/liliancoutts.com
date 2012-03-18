@@ -1,0 +1,27 @@
+---
+layout: portfolio
+---
+<ul class="collection">
+  {% for img in page.images %}
+    <li>
+      <a href="/media/art/{{ page.title }}/{{ img.img }}" rel="prettyPhoto[{{page.title}}]" title="{{ img.caption }}">
+        <div class="crop-wrap">
+          <div>
+            <img alt="{{ img.caption }}" src="/media/art/{{ page.title }}/{{ img.img }}">
+          </div>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="/media/site/js/jquery.pretty_photo.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto({
+        autoplay_slideshow: false,
+        social_tools: false
+    });
+  });
+</script>

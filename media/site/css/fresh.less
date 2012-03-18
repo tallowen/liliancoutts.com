@@ -41,8 +41,6 @@ body {
     background-color: #E5E5E5;
     background-image: url(../img/noise.png);
 
-    .crop { width: 150px; height: 100px; overflow: hidden; }
-
 
     .section {
         display: block;
@@ -81,7 +79,8 @@ body {
         }
     }
     ul.options.section {
-        padding: 10px 0;
+        // Padding to allow shadows to show up
+        padding: 10px;
         > li {
             float: left;
             width: 264px;
@@ -90,22 +89,25 @@ body {
                 margin: 0 48px 0 0;
             }
 
-            p, img {
+            p, .large-crop {
                 border-style: solid;
                 border-width: 2px;
                 border-color: rgba(0, 0, 0, 0.3);
             }
             &:hover{
-                p, img{
+                p, .large-crop {
                     border-color: rgba(0, 0, 0, 0.5);
                     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
                 }
             }
-
-            img {
-                margin-bottom: -6px;
-                width: 260px;
-                height: 150px;
+            .large-crop {
+                @width:260px;
+                height: 148px;
+                overflow: hidden;
+                img {
+                    margin-bottom: -6px;
+                    width: 260px;
+                }
             }
             p {
                 text-decoration: none;
@@ -131,6 +133,8 @@ body {
     .section.portfolio {
         background: #fcfcfc;
         border: 1px rgba(0, 0, 0, 0.3) solid;
+        margin-bottom: 150px;
+        padding-bottom: 30px;
         ul.clusters {
             padding: @vertmargin @hozmargin;
             > li {
@@ -142,16 +146,22 @@ body {
                     display: block;
                     width: 100%;
                     overflow: auto;
-
                     .crop-wrap {
                         float: left;
                         padding: 3px;
                         border: 2px solid rgba(0, 0, 0, 0.5);
                         div {
-                            .crop;
+                            @width: 150px;
+                            @height: 100px;
+                            width: @width;
+                            height: @height;
+                            overflow: hidden;
+                            img {
+                                width: @width;
+                            }
+
                         }
                     }
-
                     .description{
                         float: left;
                         padding: 0 20px;
@@ -160,6 +170,37 @@ body {
                 }
             }
         }
+        // Individual Collections page
+        ul.collection {
+            margin: 50px 0;
+            > li {
+                float: left;
+                padding-left: 32px;
+                padding-bottom: 32px;
+                .crop-wrap{
+                    padding: 3px;
+                    border: 2px solid rgba(0, 0, 0, 0.5);
+                    div {
+                        @width: 250px;
+                        @height: 150px;
+                        width: @width;
+                        height: @height;
+                        overflow: hidden;
+                        img {
+                            width: @width;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Light box styling
+    div.pp_default div.pp_content_container .pp_description {
+        font-size: 17px;
+    }
+    div.pp_default div.pp_content_container .currentTextHolder {
+        font-size: 17px;
     }
 
 }
