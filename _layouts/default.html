@@ -4,8 +4,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
   <title>Lilian Coutts</title>
-  <link rel="stylesheet/less" href="/media/site/css/fresh.less">
-  <link rel="stylesheet/less" href="/media/site/css/pretty_photo.css">
+  <link type="text/css" rel="stylesheet{% if site.css == 'less' %}/less{% endif %}" href="/media/site/{{ site.css }}/fresh.{{ site.css }}">
+  <link href="/media/site/css/pretty_photo.css">
   <link href='http://fonts.googleapis.com/css?family=Antic+Didone' rel='stylesheet' type='text/css'>
 </head>
 
@@ -18,5 +18,7 @@
     </ul>
   </div>
   {{ content }}
-  <script src="/less.js"></script>
+  {% if site.css == 'less' %}
+    <script src="/less.js"></script>
+  {% endif %}
 </html>

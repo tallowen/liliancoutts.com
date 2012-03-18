@@ -32,6 +32,7 @@ a {outline: 0;}
 html {height: 100%;}
 
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import "elements";
 
 body {
     font-family: 'Poiret One';
@@ -97,7 +98,7 @@ body {
             &:hover{
                 p, .large-crop {
                     border-color: rgba(0, 0, 0, 0.5);
-                    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+                    .box-shadow( ~"0 0 5px rgba(0, 0, 0, 0.3)");
                 }
             }
             .large-crop {
