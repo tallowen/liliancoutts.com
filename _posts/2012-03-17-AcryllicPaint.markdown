@@ -1,16 +1,14 @@
 ---
 layout: collections
 top-picture-link: IMG_1007.jpg
-home-page-description: Acryllic
+home-page-description: acryllic paint on canvas
 profile-page-description:
-    Hello, I'm a *bold*
-
-    I'm a the best paragraph
+  These paintings were based off a still life set up in Fall of 2010. Acryllic paint on canvas
 images:
     -
         img: IMG_1007.jpg
-        caption: An awesome caption
+        caption: egg still life
     -
         img: IMG_1008.jpg
-        caption: Funny caption
+        caption: painting of bowl with eggs still life
 ---
