@@ -1,7 +1,6 @@
 ---
 layout: collections
 top-picture-link: IMG_0999.jpg
-home-page-description: 
 profile-page-description:
     Series of Conte (similar to charcoal) drawings on paper
 
