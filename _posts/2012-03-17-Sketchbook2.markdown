@@ -1,6 +1,7 @@
 ---
 layout: collections
 top-picture-link: IMG_1026.jpg
+home-page-description: hand-made sketchbook
 profile-page-description:
     These images are from a hand-sewn sketchbook i made filled with ink prints, collage, and paint.
 images:
