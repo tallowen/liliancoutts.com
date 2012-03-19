@@ -1,28 +1,21 @@
 ---
 layout: collections
 top-picture-link: IMG_1055.jpg
-home-page-description: InkPrint
+home-page-description: Ink Prints
 profile-page-description:
-    Hello, I'm a *bold*
-
-    I'm a the best paragraph
+    These series of images were done by carving into linoleum blocks, and printing onto different kinds of paper
 images:
     -
         img: IMG_1055.jpg
-        caption: Skilex is for lame colledge kids
+        caption: hand-carved linoleum bird stamps on map
     -
         img: IMG_1056.jpg
-        caption: Skilex is for lame colledge kids
-    -
-        img: IMG_1057.jpg
-        caption: Skilex is for lame colledge kids
+        caption: hand-carved linoleum bird stamps on map
     -
         img: IMG_1058.jpg
-        caption: Skilex is for lame colledge kids
+        caption: hand-carved linoleum face stamps printed on paper
     -
         img: IMG_1059.jpg
-        caption: Skilex is for lame colledge kids
-    -
-        img: IMG_1060.jpg
-        caption: Skilex is for lame colledge kids
+        caption: hand-carved linoleum face stamps printed on paper
+    
 ---
