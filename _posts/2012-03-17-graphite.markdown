@@ -1,31 +1,29 @@
 ---
 layout: collections
 top-picture-link: IMG_1009.jpg
-home-page-description: graphite
+home-page-description: graphite sketches
 profile-page-description:
-    Hello, I'm a *bold*
-
-    I'm a the best paragraph
+   These drawings are quick nude sketches as well as doodles from my sketchbook
 images:
     -
         img: IMG_1009.jpg
-        caption: Owen wins at life
+        caption: graphite on paper
     -
         img: IMG_1010.jpg
-        caption: Owen wins at life
+        caption: graphite on paper
     -
         img: IMG_1012.jpg
-        caption: Owen wins at life
+        caption: graphite on paper
     -
         img: IMG_1013.jpg
-        caption: Owen wins at life
+        caption: graphite on paper
     -
         img: IMG_1015.jpg
-        caption: Owen wins at life
+        caption: graphite on paper
     -
         img: IMG_1071.jpg
-        caption: Owen wins at life
+        caption: graphie on paper
     -
         img: IMG_1072.jpg
-        caption: Owen wins at life
+        caption: graphite on paper
 ---
