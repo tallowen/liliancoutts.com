@@ -1,6 +1,7 @@
 ---
 layout: collections
 top-picture-link: IMG_1062.jpg
+home-page-description: paper collage
 profile-page-description:
  These paper collages are experimenting with elements of composition and design.
 images:
