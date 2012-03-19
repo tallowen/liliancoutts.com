@@ -3,7 +3,7 @@ layout: collections
 top-picture-link: IMG_1059.jpg
 home-page-description: Ink Prints
 profile-page-description:
-    These series of images were done by carving into linoleum blocks, and printing onto different kinds of paper
+    This series of images were done by carving into linoleum blocks, and printing them onto paper
 images:
     -
         img: IMG_1055.jpg
