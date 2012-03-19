@@ -1,7 +1,6 @@
 ---
 layout: collections
 top-picture-link: IMG_1009.jpg
-home-page-description: graphite sketches
 profile-page-description:
    These drawings are quick nude sketches as well as doodles from my sketchbook
 images:
