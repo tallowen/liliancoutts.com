@@ -5,7 +5,7 @@ home-page-description: paper collage
 profile-page-description:
  These paper collages are experimenting with elements of composition and design.
 images:
-
+    -
         img: IMG_1062.jpg
         caption: paper collage
     -
