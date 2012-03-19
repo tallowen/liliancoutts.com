@@ -1,36 +1,30 @@
 ---
 layout: collections
-top-picture-link: Bear.jpg
+top-picture-link: jericho.jpg
 profile-page-description:
-    Hello, I'm a *bold*
-
-    I'm a the best paragraph
+    This goal of this project was to depict nature or the real world coninciding with technology. 
+    The idea was to reference how a huge part of our world is handled through our computers or online. 
+    These images were photographed and photoshopped in spring of 2011
 images:
     -
-        img: Bear.jpg
-        caption: Hello there
-    -
         img: Totempark.jpg
-        caption: Hello there
+        caption: people in empty field
     -
         img: carinlot.jpg
-        caption: Hello there
+        caption: car in empty parking space
     -
         img: flowersonwindowsill.jpg
-        caption: Hello there
-    -
-        img: girlincafeteria.jpg
-        caption: Hello there
+        caption: extra flowers on windowsill
     -
         img: jericho.jpg
-        caption: Hello there
+        caption: sunny on google maps, cloudy in real life
     -
         img: picnic.jpg
-        caption: Hello there
+        caption: cyber picnic
     -
         img: plateofcookies.jpg
-        caption: Hello there
+        caption: no cookies left
     -
         img: robinsnest.jpg
-        caption: Hello there
+        caption: robin's nest in empty tree
 ---
