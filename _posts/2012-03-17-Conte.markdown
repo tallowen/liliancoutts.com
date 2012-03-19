@@ -1,19 +1,19 @@
 ---
 layout: collections
 top-picture-link: IMG_0999.jpg
-home-page-description: Conte
+home-page-description: 
 profile-page-description:
-    Hello, I'm a *bold*
+    Series of Conte (similar to charcoal) drawings on paper
 
     I'm a the best paragraph
 images:
     -
         img: IMG_0999.jpg
-        caption: Wut.
+        caption: quick skeleton sketch
     -
         img: IMG_1004.jpg
-        caption: Up.
+        caption: 3 hour drawing of girl with pumkin
     -
         img: IMG_1016.jpg
-        caption: Nigga.
+        caption: minute sketch of nude woman
 ---
