@@ -1,10 +1,10 @@
 ---
 layout: collections
-top-picture-link: IMG_0999.jpg
+top-picture-link: IMG_1016.jpg
 profile-page-description:
     Series of Conte (similar to charcoal) drawings on paper
 
-    I'm a the best paragraph
+ 
 images:
     -
         img: IMG_0999.jpg
